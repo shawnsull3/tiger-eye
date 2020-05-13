@@ -54,7 +54,8 @@ export class OrderSelection extends Component {
               >
                 <option value="" selected="selected" disabled hidden>Select Size</option>
                 {availableSizes.map((size) => (
-                  <option value={size} key={size}>{size}</option>))}
+                  <option value={size} key={size}>{size}</option>
+                ))}
               </select>
             )
             : (
